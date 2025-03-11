@@ -1,18 +1,53 @@
-h1,h2,p{
+
+*{
+    margin:0;
+    padding:0;
+}
+h1,h2{
+    color:blue;
+    margin:40px;
     text-align: center;
+    border: 5px solid black;
+    background-color: aqua;
+}
+p{
+    margin:40px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: blue;
+    color: white;
+
+
 }
 
 ul,ol{
     text-align: center;
     list-style-position: inside;
+    border: 5px solid black;
+    margin: 40px;
+    background-color: blue;
+    color:white;
+
+
 
 }
 img{
     display:block;
     margin-left: auto;
     margin-right: auto;
+    border: 5px solid black;
+    
 }
 .home-link{
-   text-align: center; 
+   text-align: center;
+   display: block;
+   border: 3px solid black;
+   width:60px;
+   box-sizing: border-box;
+   margin: 40px auto;
+   background-color: aqua;
+}
+body{
+    background-color: orange;
 }
 
